@@ -9,4 +9,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="published\.gitattributes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="published\.gitattributes" />
+  </ItemGroup>
+
 </Project>
